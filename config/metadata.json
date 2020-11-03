@@ -1,33 +1,13 @@
 {
+  "logoImage": "site-logo.svg",
+  "socialImage": "site-social.jpg",
   "iconImage": "site-icon.png",
+  "title": "Hyperobjekt",
+  "description": "Speed up your GatsbyJS development workflow. Designed as a set of opinionated and advanced themes and starters using MDX and Theme-UI. Incorporates gatsby-theme-hyperobjekt-core.",
+  "keywords": ["gatsby", "theme", "react"],
+  "author": "Lane Olson",
   "copyright": "Copyright Hyperobjekt © 2020",
   "siteUrl": "https://gatsby-starter-hyperobjekt.netlify.app",
-  "keywords": [
-    "gatsby",
-    "theme",
-    "react"
-  ],
-  "author": "Lane Olson",
-  "socialLinks": [
-    {
-      "name": "Email",
-      "link": "hyperobjekt@hyperobjekt.com",
-      "location": "footer"
-    },
-    {
-      "name": "Twitter",
-      "link": "https://twitter.com/hyperobjekt",
-      "location": "header"
-    },
-    {
-      "name": "Github",
-      "link": "https://www.github.com/hyperobjekt",
-      "location": "all"
-    }
-  ],
-  "socialImage": "site-social.jpg",
-  "logoImage": "site-logo.svg",
-  "title": "Hyperobjekt",
   "menuLinks": [
     {
       "name": "Home",
@@ -50,27 +30,27 @@
           "link": "/getting-started/#adding-pages",
           "type": "internal"
         }
-      ],
-      "location": "all"
+      ]
+    },
+    { "name": "Theming", "link": "/theming", "type": "internal" },
+    { "name": "Guides", "link": "/guides", "type": "internal" },
+    { "name": "Style Guide", "link": "/style-guide", "type": "internal" }
+  ],
+  "socialLinks": [
+    {
+      "name": "Email",
+      "link": "hyperobjekt@hyperobjekt.com",
+      "location": "footer"
     },
     {
-      "name": "Theming",
-      "link": "/theming",
-      "type": "internal",
-      "location": "all"
+      "name": "Twitter",
+      "link": "https://twitter.com/hyperobjekt",
+      "location": "header"
     },
     {
-      "name": "Style Guide",
-      "link": "/style-guide",
-      "type": "internal",
-      "location": "all"
-    },
-    {
-      "name": "Guides",
-      "link": "/guides",
-      "type": "internal",
+      "name": "Github",
+      "link": "https://www.github.com/hyperobjekt",
       "location": "all"
     }
-  ],
-  "description": "Speed up your GatsbyJS development workflow. Designed as a set of opinionated and advanced themes and starters using MDX and Theme-UI. Incorporates gatsby-theme-hyperobjekt-core."
+  ]
 }
