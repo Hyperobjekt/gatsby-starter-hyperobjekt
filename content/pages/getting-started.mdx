@@ -1,7 +1,8 @@
 ---
 title: Getting Started
+description: Learn how to get started using the hyperobjekt core theme
+image: /assets/site-social.jpg
 ---
-
 ## Getting Started
 
 You can create a new site from the starter with the following command:
@@ -12,7 +13,7 @@ gatsby new my-new-site https://github.com/Hyperobjekt/gatsby-starter-hyperobjekt
 
 ### Configuration
 
-The core configuration and site metadata can all be configured using [Netlify CMS](https://gatsby-starter-hyperobjekt.netlify.app/admin/)fy CMS. Alternatively, you can manually edit the configuration files as outlined below.
+The core configuration and site metadata can all be configured using [Netlify CMS](https://gatsby-starter-hyperobjekt.netlify.app/admin/). Alternatively, you can manually edit the configuration files as outlined below.
 
 #### Netlify CMS
 
@@ -54,17 +55,16 @@ The core settings can be found in `/config/core.json` and specifies the configur
     }
   }
 }
-
 ```
 
 #### Site Metadata
 
 Site metadata can be found in `/config/metadata.json`, and specifies:
 
-- Defaults for SEO fields
-- Site Navigation
-- Social Media Accounts
-- Copyright (for footer)
+* Defaults for SEO fields
+* Site Navigation
+* Social Media Accounts
+* Copyright (for footer)
 
 **Sample:** `/config/metadata.json`
 
@@ -102,17 +102,17 @@ Site metadata can be found in `/config/metadata.json`, and specifies:
     ...
   ]
 }
-
 ```
 
 #### Site Images (Logo, Favicons, Social Media)
 
 The images used sitewide are placed in `/content/assets`, replace these images with images you would like to use for the site. You must **keep the file names the same** as they are optimized and resized for appropriate output.
 
-- **Logo:** `/content/assets/site-logo.[svg,png,jpg]`
-- **Favicon / Home Icon:** `/content/assets/site-icon.png`
-- **Social Image:** `/content/assets/site-social.jpg`
-  - You can also specify this on a per-page basis using front matter
+* **Logo:** `/content/assets/site-logo.[svg,png,jpg]`
+* **Favicon / Home Icon:** `/content/assets/site-icon.png`
+* **Social Image:** `/content/assets/site-social.jpg`
+
+  * You can also specify this on a per-page basis using front matter
 
 ### Adding Pages
 
