@@ -7347,10 +7347,10 @@ gatsby-telemetry@^1.3.39:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-theme-hyperobjekt-core@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-hyperobjekt-core/-/gatsby-theme-hyperobjekt-core-1.0.3.tgz#46f86b76c8b31b9721ad4abe6cf75cc5dc188556"
-  integrity sha512-u0qghQx4pfhRmlJuPJW4PiGeTWzSs1o/SHj00qMVqWxCrwTK4gMsRGZCHAypMiD5sy97NVETwsPUI4KEczZwEQ==
+gatsby-theme-hyperobjekt-core@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-hyperobjekt-core/-/gatsby-theme-hyperobjekt-core-1.0.4.tgz#777dc66b481a145bce200feb262332dbbf0aa9ba"
+  integrity sha512-iHtPSPr+1AxeLt/GnqdYRo+H2HGAfPApHLXhKB+Pn1elw7KGjGu4R6ucBUi/vJ6Jeoqv5Rzd7RRXLqi5Wvfg2A==
   dependencies:
     "@hyperobjekt/hooks" "1.0.8"
     "@material-ui/core" "^4.11.0"
